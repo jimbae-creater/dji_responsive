@@ -2,44 +2,44 @@
 
 * {margin: 0; padding: 0; box-sizing:border-box;}
 
-*main_img_1920 {display: block;}
-*main_img_1440 {display: none;}
-*main_img_1024 {display: none;}
-*main_img_768 {display: none;}
-*main_img_480 {display: none;}
-*main_img_360 {display: none;}
+.main_img_1920 {display: block;}
+.main_img_1440 {display: none;}
+.main_img_1024 {display: none;}
+.main_img_768 {display: none;}
+.main_img_480 {display: none;}
+.main_img_360 {display: none;}
 
 @media screen and (max-width:1440px) { 
-    *main_img_1920 {display: none;}
-    *main_img_1440 {display: block;}
+    .main_img_1920 {display: none;}
+    .main_img_1440 {display: block;}
 }
 
 @media screen and (max-width:1024px) { 
-    *main_img_1920 {display: none;}
-    *main_img_1440 {display: none;}
-    *main_img_1024 {display: block;}
+    .main_img_1920 {display: none;}
+    .main_img_1440 {display: none;}
+    .main_img_1024 {display: block;}
 } 
 
 @media screen and (max-width:768px) { 
-    *main_img_1920 {display: none;}
-    *main_img_1440 {display: none;}
-    *main_img_1024 {display: none;}
-    *main_img_768 {display: block;}
+    .main_img_1920 {display: none;}
+    .main_img_1440 {display: none;}
+    .main_img_1024 {display: none;}
+    .main_img_768 {display: block;}
 } 
 
 @media screen and (max-width:480px) {  
-    *main_img_1920 {display: none;}
-    *main_img_1440 {display: none;}
-    *main_img_1024 {display: none;}
-    *main_img_768 {display: none;}
-    *main_img_480 {display: block;}
+    .main_img_1920 {display: none;}
+    .main_img_1440 {display: none;}
+    .main_img_1024 {display: none;}
+    .main_img_768 {display: none;}
+    .main_img_480 {display: block;}
 } 
 
 @media screen and (max-width:480px) {  
-    *main_img_1920 {display: none;}
-    *main_img_1440 {display: none;}
-    *main_img_1024 {display: none;}
-    *main_img_768 {display: none;}
-    *main_img_480 {display: none;}
-    *main_img_360 {display: block;}
+    .main_img_1920 {display: none;}
+    .main_img_1440 {display: none;}
+    .main_img_1024 {display: none;}
+    .main_img_768 {display: none;}
+    .main_img_480 {display: none;}
+    .main_img_360 {display: block;}
 } 
