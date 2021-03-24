@@ -53,8 +53,8 @@ margin-left: 20px;
 .hero_title {
     font-family: 'Josefin Sans', sans-serif; 
     text-transform: uppercase; color: rgba(255, 255, 255, 1); 
-    letter-spacing: -2px; font-size: 80px;
-    position:absolute; bottom:100px; left:160px;
+    letter-spacing: -2px; font-size: 80px; line-height: 100px;
+    position:absolute; bottom:85px; left:160px;
 
 }
 
@@ -76,6 +76,8 @@ main {width: 100%; height: auto; overflow: hidden;}
     .gnb {
         padding-left: 30px; padding-right: 30px;
     }
+    .gnb_center_menu{
+        margin-right: 21px; margin-left: 21px;}
     .main_img_1920 {display: none;}
     .main_img_1440 {display: block;}
 }
@@ -88,9 +90,15 @@ main {width: 100%; height: auto; overflow: hidden;}
         color: rgba(255, 255, 255, 1);
         margin-right: 20px; margin-left: 20px;
     }
-    .gnb_icon_1{ display: none;
-        }
-
+    .gnb_icon_1{ display: none; }
+    .gnb_icon{ margin-left: 10px; }
+        
+    .hero_title {
+        text-transform: uppercase;
+        letter-spacing: -2px; font-size: 60px; line-height: 70px;
+        position:absolute; bottom:50px; left:30px;
+    
+    }
 
     .main_img_1920 {display: none;}
     .main_img_1440 {display: none;}
@@ -98,8 +106,16 @@ main {width: 100%; height: auto; overflow: hidden;}
 } 
 
 @media screen and (max-width:768px) { 
-    .hero {transform: rotate(90deg);}
-    .hero_video { height: 100%; min-width: 100%; display: block;  object-fit:cover;}
+    .hero_title {
+        text-transform: uppercase;
+        letter-spacing: -2px; font-size: 40px; line-height: 45px;
+        position:absolute; bottom:40px; left:30px;
+    
+    }
+    .gnb { height: 60px;    }
+    .hero {margin-top: 60px;}
+    .gnb_center_menu{
+        margin-right: 16px; margin-left: 16px;}
 
     .main_img_1920 {display: none;}
     .main_img_1440 {display: none;}
@@ -118,7 +134,18 @@ main {width: 100%; height: auto; overflow: hidden;}
     .main_img_760 {display: block;}
 } 
 
-@media screen and (max-width:360px) {  
+@media screen and (max-width:460px) {  
+
+    .hero_title {
+        text-transform: uppercase;
+        letter-spacing: -2px; font-size: 32px; line-height: 40px;
+        position:absolute; bottom: 20px; left:30px;
+    
+    }
+
+    .gnb {
+        padding-left: 20px; padding-right: 20px;
+    }
     .main_img_1920 {display: none;}
     .main_img_1440 {display: none;}
     .main_img_1024 {display: none;}
