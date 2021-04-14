@@ -46,7 +46,7 @@ margin-left: 20px;
 }
 
 /* Hero */
-.hero {height: 85vh; position: relative; margin-top: 80px;}
+.hero {height: 80vh; position: relative; margin-top: 80px;  overflow: hidden;}
  
 .hero_video { width: 100%; min-height: 100%; display: block;  object-fit:cover;}
 
